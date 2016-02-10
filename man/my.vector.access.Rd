@@ -2,11 +2,11 @@
 % Please edit documentation in R/my.vector.access.R
 \name{my.vector.access}
 \alias{my.vector.access}
-\title{Utility function to apply functions to elements in sparse matrix}
+\title{Utility functions}
 \usage{
 my.vector.access(v, a, func = sum, zero = 0)
 }
 \description{
-utility function
+Utility functions
 }
 
