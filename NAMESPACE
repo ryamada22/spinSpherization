@@ -3,6 +3,8 @@
 S3method(plot,sp.conformal)
 export(my.conformal.rho)
 export(my.curvature.cot)
+export(my.deform.k.serial)
+export(my.deform.k.serial.m)
 export(my.inv.pow.2)
 export(my.make.E.v)
 export(my.make.L)
