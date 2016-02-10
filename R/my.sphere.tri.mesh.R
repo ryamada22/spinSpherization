@@ -7,6 +7,7 @@
 #' @examples
 #' n.psi <- 25
 #' sp.mesh <- my.sphere.tri.mesh(n.psi)
+#' library(rgl)
 #' plot3d(sp.mesh$xyz)
 #' segments3d(sp.mesh$xyz[c(t(sp.mesh$edge)),])
 
