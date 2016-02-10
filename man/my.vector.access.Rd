@@ -6,24 +6,7 @@
 \usage{
 my.vector.access(v, a, func = sum, zero = 0)
 }
-\arguments{
-\item{v}{is a vector or matrix/array that can be vectorized}
-
-\item{a}{is a value vector corresponding to v}
-
-\item{func}{funtion to be applied to the selected elelments by a}
-
-\item{an}{initial value of calculation}
-}
 \description{
 utility function
 }
-\examples{
-m <- matrix(c(1,2,3,4,5,6),2,3)
-a <- c(3,4)
-my.vector.access(m,a)
-sum(m[a])
-}
-\keyword{matrix}
-\keyword{sparse}
 

@@ -1,17 +1,8 @@
 #' Utility function to apply functions to elements in sparse matrix
 #'
 #' utility function
-#' @param v is a vector or matrix/array that can be vectorized 
-#' @param a is a value vector corresponding to v
-#' @param func funtion to be applied to the selected elelments by a
-#' @param an initial value of calculation
-#' @keywords sparse matrix 
 #' @export
-#' @examples
-#' m <- matrix(c(1,2,3,4,5,6),2,3)
-#' a <- c(3,4)
-#' my.vector.access(m,a)
-#' sum(m[a])
+
 
 my.vector.access <- function(v,a,func=sum,zero=0){
   if(is.vector(v)){
